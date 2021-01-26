@@ -12,16 +12,18 @@
   &__img {
     width: 160px;
     height: 134px;
-    margin: 30px 0 45px;
-    transition: all 1s;
+    margin: 15px 0 30px;
+
+    transition: transform 1s, border 1s;
     border: 3px solid transparent;
     display: block;
     box-sizing: content-box;
+
   }
 
   &__img:hover {
     transform: scale(1.2);
-    border: 3px solid #f3f3f3;
+    border-color: hsl(0, 0%, 95%);
 
   }
 
@@ -29,7 +31,7 @@
     @include flexSpaceBetween;
 
     align-items: center;
-    margin-top: 15px;
+    margin-top: 30px;
     margin-left: 0;
   }
 
@@ -78,6 +80,7 @@
   font-size: 12px;
   font-weight: 500;
   line-height: 15px;
+
 }
 
 .card__text-goods {
