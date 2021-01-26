@@ -1,12 +1,9 @@
 .container {
-  // display: flex;
   display: grid;
 
   justify-content: center;
-  // flex-wrap: wrap;
-  // max-width: 1024px;
-  // margin: 0 auto;
+
   gap: 0 40px;
-  // box-sizing: border-box;
+
   grid-template-columns: repeat(4 ,auto);
 }
