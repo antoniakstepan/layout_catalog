@@ -10,7 +10,7 @@
 }
 
 .nav-link {
-  display: block;
+  display: grid;
 
   margin-right: 20px;
   color: #000;
@@ -44,9 +44,9 @@
 }
 
 .ul-nav-item {
-  display: flex;
-
-  justify-content: space-between ;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: end ;
 
   margin: 0;
   padding: 0;
